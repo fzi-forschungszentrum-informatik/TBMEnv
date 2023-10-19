@@ -1,0 +1,12 @@
+# This container allows running the notebooks.
+
+services:
+  tbmenv-notebook:
+    container_name: tbmenv-notebook
+    build: .
+    restart: unless-stopped
+    user: ${USER_ID:-1000}:${GROUP_ID:-1000}
+    volumes:
+      - .:/home/jovyan/tbmenv/
+    ports:
+      - 8888:8888
