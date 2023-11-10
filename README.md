@@ -1,6 +1,6 @@
 # TBMEnv - An Environment to Assess the Accuracy of Thermal Building Models under Realistic Conditions
 
-TBMEnv is an program that can be used to evaluate and benchmark models of model-based thermal building optimization algorithms, which are most likely model-based reinforcement learning approaches. The main goal of the environment is to support the evaluation of thermal (machine learning) building models under realistic conditions as this cannot be achieved using available environments like [BOPTEST](https://github.com/ibpsa/project1-boptest) or [Sinergym](https://github.com/ugr-sail/sinergym). For more details and background please see the accompanying [paper](./paper.pdf).
+TBMEnv is an program that can be used to evaluate and benchmark models of model-based thermal building optimization algorithms, which are most likely model-based reinforcement learning approaches. The main goal of the environment is to support the evaluation of thermal (machine learning) building models under realistic conditions as this cannot be achieved using available environments like [BOPTEST](https://github.com/ibpsa/project1-boptest) or [Sinergym](https://github.com/ugr-sail/sinergym). For more details and background please see the accompanying [paper](https://dl.acm.org/doi/abs/10.1145/3600100.3625683). In case you have no access to ACM DL a copy can be found [here](./paper.pdf).
 
 
 
@@ -46,13 +46,28 @@ The measurement data utilized in Scenario 2 has been taken from [here](https://g
 
 ## Citation
 
-Please consider citing us if this environment and/or the accompanying [paper](https://dl.acm.org/doi/10.1145/3408308.3427614) was useful for your scientific work. You can use the following BibTex entry:
+Please consider citing us if this environment and/or the accompanying [paper](https://dl.acm.org/doi/abs/10.1145/3600100.3625683) was useful for your scientific work. You can use the following BibTex entry:
 
 ```latex
-TODO: Add bibtex here after paper is online in ACM DL.
+@inproceedings{10.1145/3600100.3625683,
+author = {W\"{o}lfle, David and Vossberg, Samed Rouven and Schmeck, Hartmut},
+title = {TBMEnv - An Environment to Assess the Accuracy of Thermal Building Models under Realistic Conditions},
+year = {2023},
+isbn = {9798400702303},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3600100.3625683},
+doi = {10.1145/3600100.3625683},
+booktitle = {Proceedings of the 10th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {357–360},
+numpages = {4},
+keywords = {reinforcement learning, building control, building energy management, evaluation, benchmark, environment, smart building},
+location = {Istanbul, Turkey},
+series = {BuildSys '23}
+}
 ```
 
-Other reference formats are provided [here](https://dl.acm.org/doi/10.1145/3408308.3427614) (export citation button).
+Other reference formats are provided [here](https://dl.acm.org/doi/abs/10.1145/3600100.3625683) (export citation button).
 
 
 
